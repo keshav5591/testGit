@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/* **************************************************
+
+Name: branding_image.css
+
+Description: Setting of branding image module
+
+Create: 2012.02.29
+Update: xxxx.xx.xx
+
+Copyright 2012 Hitachi, Ltd. 
+
+***************************************************** */
+
+
+
+/* Branding image
+=========================================================================================== */
+#BrandingImgStyle1{
+margin: 0 0 0px;
+position: relative;
+z-index: 1;
+}
+
+.branding-image {
+	position:relative;
+}
+
+
+
+/* Slide
+=========================================================================================== */
+.branding-image .slide {height:300px;
+}
+	.branding-image .slide a {
+		position:absolute;
+		display:none;
+		overflow:hidden;
+	}
+	.branding-image .slide img {
+		border:none;
+	}
+	.branding-image .slide a .caption {
+		display: none;
+	}
+
+
+
+/* Controller
+=========================================================================================== */
+.branding-image .controller {
+	position:absolute;
+	margin:0;
+	padding:4px;
+	list-style:none;
+	z-index:9;
+	background:url(../image/bg.png)
+	
+}
+
+/*--- Position ---*/
+	.branding-image .controller.rt {  /* 锟紼锟斤拷 */
+		right:2px;
+		top:2px;
+	}
+	.branding-image .controller.lb {  /* 锟斤拷锟斤拷 */
+		left:2px;
+		bottom:2px;
+	}
+	.branding-image .controller.rb {  /* 锟紼锟斤拷 */
+		right:10px;
+		bottom:0px;
+
+	}
+
+/*--- Button ---*/
+	.branding-image .controller li {
+		float:left;
+		width:28px;
+		height:28px;
+		cursor:pointer;
+	}
+		.branding-image .controller.rt li,
+		.branding-image .controller.rb li {
+			margin-left:1px;
+		}
+		.branding-image .controller.lb li {
+			margin-right:0px;
+		}
+	.branding-image .controller a {
+		display:block;
+		width:28px;
+		height:28px;
+		overflow:hidden;
+		background: #ffffff;
+	}
+	.branding-image .controller img {
+		border:none;
+	}
+	.branding-image .controller li:first-child  a{
+		background: #000000;
+	}
+	.branding-image .controller li:first-child  a img {
+		display: block;
+	}
+	.branding-image .controller a.active {
+		background: #cc0000;
+	}
+	.branding-image .controller a.focus {
+		background: #535353;
+	}
+	
+	#BrandingImgStyle1 .slide a img {
+		height: auto;
+		width: 100%;
+	}
+	@media only screen and (max-width: 992px) {
+		#BrandingImgStyle1 .slide .visible-xs {display: block!important;}
+	}
+
+/* eof. */

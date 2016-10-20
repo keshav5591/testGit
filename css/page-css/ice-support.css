@@ -1,0 +1,8 @@
+.grey-bg{background-color: #e2e1e1; padding: 15px; margin-bottom: 47px;}
+.product-support{padding-top: 0px;}
+.product-support .thumb-wrapper{margin-top:15px; border-radius: 4px 4px 0 0;}
+.product-support .thumb-wrapper img{width:100%;}
+.product-support .thumb-data-strip{width: 100%;height: 40px;background-color: #e10d20;margin: 0;display: table;table-layout: fixed;border-radius: 0 0 4px 4px}
+.product-support .thumb-data-strip h4{display: table-cell;vertical-align: middle;line-height: 1.3}    
+.product-support .thumb-data-strip h4 a{font-size: 14px;color: #ffffff;padding: 0 32px 0 10px;display: block;font-weight: bold;max-height: 40px;background-image: url("../../images/strip_arrow.png");background-position: right;background-repeat: no-repeat;}    
+.margin-top-15{margin-top:15px;}

@@ -1,0 +1,120 @@
+
+
+.hidden-xxs {
+    display: block;
+}
+.hidden-xs {
+    display: block;
+}
+.hidden-sm {
+    display: block;
+}
+.hidden-md {
+    display: block;
+}
+.hidden-lg {
+    display: none;
+}
+.visible-xxs {
+    display: none;
+}
+.visible-xs {
+    display: none;
+}
+.visible-sm {
+    display: none;
+}
+.visible-md {
+    display: none;
+}
+.visible-lg {
+    display: block;
+}
+
+
+
+
+
+#BrandingImgStyle1 {
+    background-color: #f2f2f2;
+    padding: 0 !important;
+    height: auto;
+    margin: 0 0 15px;
+}
+#BrandingImgStyle1 .slide a {
+    left: 0;
+    top: 0;
+    width: auto !important;
+    text-decoration: none;
+}
+#BrandingImgStyle1 .slide a img {
+    width: 100%;
+    height: auto;
+}
+#BrandingImgStyle1 .slide a .caption {
+    padding: 15px;
+    display: none;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Avenir Next Cyr W00 Bold', helvetica, arial, sans-serif;
+    font-size: 120%;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+#BrandingImgStyle1 .slide-one-only a {
+    display: block !important;
+    position: relative !important;
+}
+.branding-image .controller {
+    z-index: 99;
+    height: 26px;
+}
+#BrandingImgStyle1 .controller > li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+    .JS #BrandingImgStyle1 {
+        height: auto !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .JS #BrandingImgStyle1 .slide a img {
+        height: auto;
+    }
+
+    .JS #BrandingImgStyle1 .controller > li a {
+        text-indent: -9999px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 4px;
+        height: 12px;
+        width: 12px;
+    }
+    .JS #BrandingImgStyle1 .controller > li a.active {
+        background-color: #DD0001;
+    }
+    .JS #BrandingImgStyle1 .controller > li:first-child a {
+        text-indent: 0;
+        background-color: transparent;
+        border-radius: 0;
+        margin: 2px 1px;
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .JS #BrandingImgStyle1 {
+        margin-bottom: 0;
+    }
+    .JS #BrandingImgStyle1 .controller {
+        background: none;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    
+
+    

@@ -1,0 +1,162 @@
+/* ----------------------------------------------------------------------------------------
+
+Initial Setting
+
+------------------------------------------------------------------------------------------- */
+
+/* 1: Base Setting
+=========================================================================================== */
+
+html {overflow-y: scroll; font-size: 14px;}
+
+body, div, dl, dt, dd, ul, ul li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	line-height: 160%;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th {text-align: left;}
+
+q:before, q:after {content: "";}
+
+object, embed {vertical-align: top;}
+
+hr, legend {display: none;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+img, abbr, acronym, fieldset {
+	border: 0;
+}
+
+img {
+	vertical-align: top;
+}
+
+ul li {list-style-type: none;}
+
+strong {
+	font-weight: bold;
+}
+
+em {font-style: italic;}
+
+sub {
+	margin: auto 1px auto;
+	font-size: 92.2%;
+	vertical-align: -0.15em;
+	line-height: 100%;
+}
+* html body sub {font-size: 105%;}
+*:first-child+html body sub {font-size: 105%;}
+
+sup {
+	margin: auto 1px auto;
+	font-size: 92.2%;
+	vertical-align: 0.15em;
+	line-height: 100%;
+}
+* html body sup {font-size: 105%;}
+*:first-child+html body sup {font-size: 105%;}
+
+
+
+
+/* 2: Body Setting
+=========================================================================================== */
+
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	color: #333;
+	font-size: 14;
+	line-height: 100%;
+	text-align: left;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+
+/* 3: Link Setting
+=========================================================================================== */
+
+a:link {
+	color: #c02;
+    outline: none;
+}
+a:visited {
+	text-decoration: underline;
+	color: #a94657;
+    outline: none;
+}
+a:hover {
+	color: #b1000e;
+    outline: none;
+}
+a:active {
+	text-decoration: none;
+	color: #b1000e;
+    outline: none;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------
+
+Setting of page layout
+
+------------------------------------------------------------------------------------------- */
+
+/* [-] Skip Link
+=========================================================================================== */
+
+#top {
+	min-width: 965px;
+	background-color: #3e3a39;
+	line-height: 2;
+	font-size: 83%;
+	text-align: center;
+	margin: 0;
+}
+
+#top a {
+	color: #fff;
+	background: url(../../../image/en/r1/icon/icon_link_bottom_white.png) right 3px no-repeat;
+	padding-right: 18px;
+	position: absolute;
+	top: -10em;
+}
+* html #top a {
+	background: url(../../../image/en/r1/icon/icon_link_bottom_white.gif) right 6px no-repeat;
+}
+
+#top a:link,
+#top a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+#top a:hover,
+#top a:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+#top a.focus {
+	position: static;
+	margin: 5px 0 6px;
+	padding-bottom: 3px;
+	zoom: 1;
+}

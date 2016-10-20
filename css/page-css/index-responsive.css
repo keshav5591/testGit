@@ -1,0 +1,5 @@
+@media only screen and (max-width: 767px) {
+	.cta {display: block;}
+	.cta>.cta-col, .cta>.cta-col.align-right {display: block; text-align: center;}
+	.cta>.cta-col.btn-right  {width: inherit;}
+}
